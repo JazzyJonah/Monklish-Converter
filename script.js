@@ -1,4 +1,5 @@
-function generateImage() {
+function generateImage() 
+    document.getElementById("image-container").innerHTML = '<canvas id="result-image"></canvas>'
     var inputText = document.getElementById("input-text").value.toLowerCase();
     var canvas = document.getElementById("result-image");
     var context = canvas.getContext("2d");
